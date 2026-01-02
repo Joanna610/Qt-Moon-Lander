@@ -1,0 +1,10 @@
+debug/gas.o
+debug/gases2.o
+debug/graphs.o
+debug/lander.o
+debug/main.o
+debug/mainwindow.o
+debug/wektor2d.o
+debug/moc_gas.o
+debug/moc_lander.o
+debug/moc_mainwindow.o

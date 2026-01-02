@@ -1,0 +1,11 @@
+release/gas.o
+release/gases2.o
+release/graphs.o
+release/lander.o
+release/main.o
+release/mainwindow.o
+release/wektor2d.o
+release/qrc_translation.o
+release/moc_gas.o
+release/moc_lander.o
+release/moc_mainwindow.o

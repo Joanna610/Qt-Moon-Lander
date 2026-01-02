@@ -1,0 +1,23 @@
+digraph "Wektor2D::getY"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Wektor2D::getY",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Lander::paintEvent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_lander.html#a97f75bc699ce2a3b87a2718e51fc7c29",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="gas::setPosition",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgas.html#a554dd2853f458055c4037b12d2934ac5",tooltip="Aktualizuje pozycję lątownika."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="gases2::updateLanderPosition",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgases2.html#ad30c43a4cb9fe2faf89aff8c75043938",tooltip="Aktualizuje obecną pozycje wszystkich kuleczek."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="MainWindow::CountAngles",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_main_window.html#ad9bb31d3e79124a37c6ddf1852b76a8f",tooltip="Wylicza kąt odchylenia."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="MainWindow::AddData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_main_window.html#a32a0b32f59c0fbb706abac3335cacebc",tooltip="Dodaje dane do wyświetlenie zawartości ramki."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="MainWindow::ReadData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_main_window.html#a4c4f54342f1ce5c3cc3fefd56fc3044c",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="MainWindow::on_openPort\l_clicked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_main_window.html#ad2ced99d3ef89364397d12fe433ba3da",tooltip="Reaguje, kiedy zostanie klinknięty przycisk łączący aplikację z urządzeniem."];
+}

@@ -1,0 +1,13 @@
+digraph "gas::stopEngine"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="gas::stopEngine",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Wyłącza silniki - zatrzymywana jest animacja."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="gases2::stopEngine",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgases2.html#ae9e242a1add827694a694748496deca5",tooltip="Zatrzymuję animację"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MainWindow::on_TurnOffEngine\l_clicked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_main_window.html#a3aaba597cc13b35e7c961398954018e8",tooltip="Odłącza silniki."];
+}
